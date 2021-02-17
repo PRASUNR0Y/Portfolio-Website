@@ -27,15 +27,14 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
-    origin: 'left',
+    origin: 'top',
     distance: '80px',
     duration: 2000,
-    reset: false
+    reset: true
 });
 
 /*SCROLL PROJECTS*/
 sr.reveal('.pro_img',{ delay: 400}); 
 sr.reveal('.pro__subtitle',{delay: 400}); 
 sr.reveal('.pro__text',{delay: 400}); 
-sr.reveal('.ip1',{delay: 400}); 
-sr.reveal('.button3',{delay: 200});
+sr.reveal('.ip1',{delay: 400});
